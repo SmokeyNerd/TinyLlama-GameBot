@@ -1,0 +1,61 @@
+error log here2019-11-21 20:45:01,805 : ERROR : web.py : 98 : http_get() : util.web : error while decoding https://tinychat.com/api/tcinfo?username=scottishmikey to json: Expecting value: line 1 column 1 (char 0)
+2019-11-21 20:46:08,259 : ERROR : pinylib.py : 99 : console_write() : pinylib : 'charmap' codec can't encode characters in position 36-37: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Python27\YOUR BOT\Tinychat_Game_Bot\pinylib.py", line 97, in console_write
+    print(msg)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 195, in write_plain_text
+    self.wrapped.write(text[start:end])
+  File "C:\Python27\lib\encodings\cp437.py", line 12, in encode
+    return codecs.charmap_encode(input,errors,encoding_map)
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 36-37: character maps to <undefined>
+2019-11-21 20:47:16,427 : ERROR : pinylib.py : 99 : console_write() : pinylib : 'charmap' codec can't encode characters in position 11-13: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Python27\YOUR BOT\Tinychat_Game_Bot\pinylib.py", line 97, in console_write
+    print(msg)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 195, in write_plain_text
+    self.wrapped.write(text[start:end])
+  File "C:\Python27\lib\encodings\cp437.py", line 12, in encode
+    return codecs.charmap_encode(input,errors,encoding_map)
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 11-13: character maps to <undefined>
+2019-11-21 21:12:05,280 : ERROR : pinylib.py : 99 : console_write() : pinylib : 'charmap' codec can't encode characters in position 34-35: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Python27\YOUR BOT\Tinychat_Game_Bot\pinylib.py", line 97, in console_write
+    print(msg)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 195, in write_plain_text
+    self.wrapped.write(text[start:end])
+  File "C:\Python27\lib\encodings\cp437.py", line 12, in encode
+    return codecs.charmap_encode(input,errors,encoding_map)
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 34-35: character maps to <undefined>
+2019-11-21 21:22:14,265 : ERROR : pinylib.py : 99 : console_write() : pinylib : 'charmap' codec can't encode characters in position 34-35: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Python27\YOUR BOT\Tinychat_Game_Bot\pinylib.py", line 97, in console_write
+    print(msg)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\Python27\lib\site-packages\colorama\ansitowin32.py", line 195, in write_plain_text
+    self.wrapped.write(text[start:end])
+  File "C:\Python27\lib\encodings\cp437.py", line 12, in encode
+    return codecs.charmap_encode(input,errors,encoding_map)
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 34-35: character maps to <undefined>
